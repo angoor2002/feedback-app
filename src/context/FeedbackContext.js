@@ -33,7 +33,7 @@ export const FeedBackprovider=({children})=>{
      const addFeedback = (newFeedback) => {
         newFeedback.id = uuidv4()
         setFeedback([newFeedback, ...feedback])
-      }
+      } 
       const editFeedback=(item)=>{
         setFeedbackEdit({
             item,
